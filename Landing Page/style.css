@@ -1,0 +1,156 @@
+body{
+    width: 60%;
+    margin: auto;
+}
+p {
+    font-size: 1.5rem;
+}
+.main {
+    background-color: darkblue;
+    border-radius: 50% / 0px 0px 100px 100px
+}
+.float-r{
+    display: inline;
+    float: right;
+}
+
+header {
+    padding: 2.5rem 9rem;
+}
+.heading-1{
+    width: 40%;
+    margin: auto;
+    font-size: 3rem;
+}
+.btn {
+    display: block;
+    padding: 1.5rem;
+    background-color: seagreen;
+    color: black;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.btn-top{
+    margin: 2rem auto;
+}
+.btn-bottom {
+    margin: 2rem 0;
+}
+main > .hero {
+    position: relative;
+    color: white;
+}
+.hero {
+    text-align: center;
+}
+.bg-pattern-1 {
+    position: absolute;
+    top: 0;
+    left: -133px;
+}
+.bg-pattern-top {
+    position: absolute;
+    top: 100px;
+    right: -50px;
+    transform: rotate(100deg);
+}
+.phone-img {
+    margin-bottom: -130px;
+    width: 50%;
+    height: auto;
+}
+.info {
+    text-align: center;
+    padding: 15rem 8rem;
+    background-color: wheat;
+    margin-top: -95px;
+    position: relative;
+    z-index: -1;
+    border-radius: 50% / 0px 0px 100px 100px
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.number{
+    padding: 1rem;
+    width: fit-content;
+    margin:2rem auto;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.heading-s{
+    line-height: 2;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    padding: 5rem;
+}
+ul{
+    padding: 0;
+}
+ul li {
+    display: inline;
+    margin-left: 2rem;
+}
+.founder-img {
+    border-radius: 100%;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.container {
+    padding: 5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bg-pattern-bot{
+    position: absolute;
+    bottom: -6rem;
+    right: 3rem;
+    border-radius: 100%;
+    width: 50%;
+}
+
+.col-2 {
+    background-color: purple;
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+    right: 0;
+    padding: 4rem;
+    box-sizing: border-box;
+    text-align: left;
+}
+.hidden-text{
+    display: none;
+}
+.underline{
+    border-bottom: 5px solid seagreen;
+}
+@media (max-width:767px) {
+    .card-container{
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+    .container {
+        display: block;
+    }
+    .col-2 {
+        position: static;
+        width: 100%;
+        padding: 2rem;
+        margin-top: -50px;
+        position: relative;
+    }
+    header {
+        padding: 2rem 4rem;
+    }
+}
